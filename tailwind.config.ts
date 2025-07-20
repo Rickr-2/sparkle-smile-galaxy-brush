@@ -61,7 +61,33 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Samsung Brand Extensions
+				'samsung-blue': 'hsl(var(--samsung-blue))',
+				'samsung-blue-dark': 'hsl(var(--samsung-blue-dark))',
+				'samsung-blue-light': 'hsl(var(--samsung-blue-light))',
+				'electric-blue': 'hsl(var(--electric-blue))',
+				'cyber-purple': 'hsl(var(--cyber-purple))',
+				'neon-cyan': 'hsl(var(--neon-cyan))',
+				'premium-silver': 'hsl(var(--premium-silver))',
+				'deep-space': 'hsl(var(--deep-space))'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-tech': 'var(--gradient-tech)',
+				'gradient-premium': 'var(--gradient-premium)',
+				'gradient-space': 'var(--gradient-space)'
+			},
+			boxShadow: {
+				'premium': 'var(--shadow-premium)',
+				'glow': 'var(--shadow-glow)',
+				'tech': 'var(--shadow-tech)'
+			},
+			animation: {
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-glow': 'pulse-glow 2s ease-in-out infinite alternate',
+				'slide-in-left': 'slideInLeft 1s ease-out',
+				'slide-in-right': 'slideInRight 1s ease-out'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
